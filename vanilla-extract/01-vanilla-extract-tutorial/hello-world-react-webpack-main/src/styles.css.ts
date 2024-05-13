@@ -1,3 +1,8 @@
+// styles are always referred to by the style function, which receives the object with all the CSS properties needed for that particular style object
+// they must always be exported since they’ll be preprocessed by vanilla-extract before being injected into the final output.
+
+// createTheme function is a very useful resource you may use from the lib whenever you need more generic, centralized style management - ex dark vs light mode
+
 import { createTheme, style } from "@vanilla-extract/css";
 
 export const [themeClass, vars] = createTheme({
