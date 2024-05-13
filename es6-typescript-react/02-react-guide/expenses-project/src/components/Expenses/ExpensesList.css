@@ -1,0 +1,10 @@
+.expenses-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .empty-expenses-list {
+    color: white;
+    text-align: left;
+    padding: 0 1rem;
+  }
